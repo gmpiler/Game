@@ -30,7 +30,7 @@ window.onload = function(){
 		scoreText.moveTo(200, 10);
 		mainScene.addChild(scoreText);
 
-		scoreText.text = "Scores: " + point;
+		scoreText.text = "やはちゃんぽいんと: " + point;
 
 		const kirimochiImg = new Sprite(150, 138);
 		kirimochiImg.moveTo(118, 100);
