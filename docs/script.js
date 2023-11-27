@@ -46,7 +46,7 @@ window.onload = function(){
 		game.onenterframe = function () {
 			kirimochiImg.x += 5;
 
-			scoreText.text = "Scores: " + point;
+			scoreText.text = "やはちゃんポイント: " + point;
 			if(kirimochiImg.x >= 400){
 				game.popScene();
 				game.pushScene(endScene);
